@@ -1,0 +1,168 @@
+/**{
+	margin:0px auto;
+}*/
+#banner img{
+	width:1166px;
+	height:300px;
+	text-align:center;
+}
+#left ul{
+	list-style-type:none;
+	margin:0px;
+	margin-left:-40px;
+	*margin:0px;/*ie7*/
+	vertical-align:middle;
+}
+#left ul li.one{
+	font-size:18px;
+	background-color:#f99e0a;
+	font-weight:bold;
+	line-height:40px;
+	padding-left:10px;
+	width:230px;
+}
+#left ul li{
+	width:240px;
+	height:40px;
+	line-height: 40px;
+	background-color:#888484; 
+	margin-bottom:2px;
+}
+#left ul li.tow{
+	margin-top:20px;
+	line-height:34px;
+	width:230px;
+	height:250px;
+	font-weight:bold;
+	font-size:16px;
+	background-color:#f99e0a;
+	padding-left:10px;
+}
+#left ul li a{
+   text-decoration:none;
+   display:block;
+   padding-left:10px;
+}
+#left ul li a:link,#left ul li a:visited{
+	color:#242424;
+	font-size:16px;
+}
+#left ul li a:hover{
+	background:#c4261c;
+	color:#fafafa;
+}
+#three{
+	padding-left:10px;
+	color:#242424;
+	font-size:18px;
+}
+#four{
+    font-size:14px;
+    color:#242424;
+    margin-left:20px;
+    margin-top:20px;
+    line-height:20px;
+    border-bottom:solid 2px #424241;
+}
+#four>a:link,#four>a:visited{
+	font-size:14px;
+    color:#242424;
+    text-decoration:none;
+}
+#four>a:hover{
+	text-decoration:underline;
+}
+#five{
+	font-size:20px;
+	color:#222424;
+	font-weight:bold;
+	margin-left:30px;
+
+}
+#six{
+	font-size:16px;
+	color:#222424;
+	margin-left:30px;
+	line-height:30px;
+}
+#right>p>img{
+	width:320px;
+	height:230px;
+	margin:0px;
+	float:left;
+	margin-left:100px;
+	padding:2px;
+}
+#sev,#eig{
+	width:50px;
+	height:200px;
+	margin:0px;
+	float:left;
+	background-color:rgba(0,0,0,0.5);/*IE9标准浏览器。IE6和部分IE7内核的浏览器会读懂*/
+	position: relative;
+	z-index: 88;
+}
+#sev>img,#eig>img{
+	width:20px;
+	height:40px;
+    padding-left:15px;
+    padding-top:75px;
+    margin:0px; 
+    position: relative;
+    z-index: 89;   
+}
+#eig{
+	float:right;
+}
+@media \0screen\,screen\9{
+	/*只支持IE6 7 8*/
+	#sev,#eig{
+    background-color:#000000;
+    filter:Alpha(opacity=50);
+    position:static;
+    *zoom:1;/*激活IE6 7的haslayout(布局样式)属性让他读懂Alpha值*/
+    position: relative;
+    z-index: 89; 
+   }
+  #sev>img,#eig>img{
+  	position:relative;
+    z-index: 89; 
+  } 
+}
+#show>ul>li>img{
+	width:200px;
+	height:160px;
+	position: absolute;
+	margin:0px;
+}
+#show>ul>li{
+	width:200px;
+	height:200px;
+	font-size:16px;
+	color:#000;
+    list-style-type:none;
+    position: relative;
+    float: left;
+    margin-right:17px;
+}
+#show>ul>li>a{
+	position:absolute;
+	top:160px;
+	display:block;
+	width:200px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+#show>ul>li>a:link,#show>ul>li>a:visited{
+	text-decoration:none;
+	color:#242424;
+	font-size:16px;
+}
+#show>ul>li>a:hover{
+	text-decoration:underline;
+	color:#f00;
+}
+
+
+

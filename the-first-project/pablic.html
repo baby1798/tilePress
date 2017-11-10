@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/pablic.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pablic_style.css"/>
+		<script type="text/javascript" src="js/pablic.js"></script>
+	</head>
+	<body>
+		<!--头部信息开始-->
+		<div id="top">
+			<img src="img/logo.jpg"/>
+			<p class="top_p1">
+				<span class="top_sp1">24小时服务热线</span><img src="img/tele.png"><span class="sp2">0335-1234567</span>
+			</p>
+			<p class="top_p2">
+				<img src="img/box.png"/><span class="top_sp3">企业邮箱</span>
+				<input type="text" name="txt" id="txt" value="双层压瓦机" />
+				<span class="top_sp4"><img src="img/sear.png"/></span>
+			</p>
+		</div>
+		<!--头部信息结束-->
+		
+		<!--导航开始-->
+		<div id="nav">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">关于我们</a></li>
+				<li><a href="#">新闻中心</a></li>
+				<li><a href="#">产品中心</a></li>
+				<li><a href="#">服务支持</a></li>
+				<li><a href="#">人力资源</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<!--导航结束-->
+		
+		<!--浮动窗口开始-->
+		<div id="fw">
+			<img src="img/fw.png"/>
+		</div>
+		<!--浮动窗口结束-->
+		
+		<!--中间内容开始-->
+		<div id="center">
+			<!--banner开始-->
+	    	<div class="banner">
+			
+	    	</div>
+	    	<!--banner结束-->
+	    	
+	    	<!--滚动图开始-->
+	    	<div class="scroll">
+	    		
+	    	</div>
+	    	<!--滚动图结束-->
+		</div>
+		<!--中间内容结束-->
+		
+		<!--版权信息开始-->
+		<div id="foot">
+			<p>联系我们    加入我们    帮助中心  法律条款  隐私声明</p>
+			<p>版权所有：宏达压瓦机械有限责任公司     京ICP备12345678号</p>
+			<img src="img/foot.jpg"/>
+		</div>
+		<!--版权信息结束-->
+	</body>
+</html>
+<script type="text/javascript">
+	var fTop=document.getElementById("foot");
+    var tHeg=document.getElementById("top");
+    var nHeg=document.getElementById("nav");
+    var cHeg=document.getElementById("center");
+    var oTop;
+    oTop=tHeg.offsetHeight+nHeg.offsetHeight+cHeg.offsetHeight;
+    fTop.style.top=oTop+60+"px";
+</script>

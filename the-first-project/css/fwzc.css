@@ -1,0 +1,149 @@
+#center{
+	width: 1366px;
+	position: absolute;
+	left: 50%;
+	margin-left: -683px;
+	top:170px;
+	margin-bottom: 30px;
+}
+#contop{
+	height:100px;
+	background-color: #23305a;
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -683px;
+	top:0px;
+}
+#content{
+	width: 1166px;
+	height: 1000px;
+	position: absolute;
+	left: 50%;
+	margin-left: -583px;
+	top:100px;
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+#conleft{
+	width: 240px;
+	height: 1000px;
+              position: absolute;
+	left: 50%;
+	margin-left: -583px;
+	top:0px;
+}
+#contact{
+	margin-top:20px;
+	width: 240px;
+	height: 250px;
+	background-color: #f99e0a;
+}
+#conright{
+	width:926px;
+	height: 1000px;
+              position: absolute;
+	left: 50%;
+	margin-left: -323px;
+	margin-top: 20px;
+	top:0px;
+}
+#rgtop{
+	height: 130px;
+	width: 926px;
+	position: absolute;
+	left: 50%;
+	margin-left: -343px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	top:0px;
+}
+#rgcenter{
+	height: 450px;
+	width: 926px;
+	position: absolute;
+	left: 50%;
+	margin-left: -323px;
+	margin-top: 220px;
+	top:0px;
+}
+#rgcenter1{
+	height: 450px;
+	width: 453px;
+	position: absolute;
+	left: 50%;
+	margin-left: -463px;
+	top:0px;
+	padding: 0px;
+}
+#rgcenter2{
+	height: 450px;
+	width: 453px;
+	position: absolute;
+	left: 50%;
+	margin-left: 10px;
+	top:0px;
+}
+#rgfooter{
+	height: 350px;
+	width: 926px;
+	position: absolute;
+	left: 50%;
+	margin-left: -323px;
+	margin-top: 670px;
+}
+#scroll{
+	width: 1166px;
+	height: 200px;
+	position: absolute;
+	top:1130px;
+	left: 50%;
+	margin-left: -583px;
+	margin-top: 30px;
+}
+#showimgss{
+	width:946px;
+	height: 200px;
+	overflow: hidden;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+}
+#showimgss ul{
+	width: 3600px;
+	height: 200px;
+	overflow: hidden;
+}
+#showimgss ul li{
+	width: 200px;
+	height: 200px;
+	list-style: none;
+	float: left;
+}
+#showimgss ul li img{
+	width: 200px;
+	height: 160px;
+	border: solid 1px #fff;
+}
+#showimgss ul li a{
+	position: absolute;
+	top:170px;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	width: 200px;
+	color: #000;
+}
+#showimgss ul li a:link,#showimgss ul li a:visited{
+	text-decoration: none;
+}
+#showimgss ul li a:hover{
+	text-decoration: underline;
+}
+#showimgss ul li img:link,#showimgss ul li img:visited{
+	border: 0px;
+}
+#showimgss ul li img:hover{
+	border: 1px #000 solid;
+}

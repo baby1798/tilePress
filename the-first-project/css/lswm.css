@@ -1,0 +1,33 @@
+#center{
+    width:1166px;
+    height:1150px;
+    *height: 1100px;
+    position:absolute;
+    left:50%;
+    margin-left:-583px;
+}
+#banner{
+	width: 1366px;
+	height: 100px;
+	background-color: #23305a;
+    position: absolute;
+    left: 50%;
+    margin-left: -683px;
+    top: 150px;
+}
+#left{
+	width: 240px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 280px;
+	margin-left: -577px;
+}
+#right{
+	width: 906px;
+	height: auto;
+    position: absolute;
+    top:280px;
+    left: 50%;
+    margin-left:-315px;
+}

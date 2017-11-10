@@ -1,0 +1,131 @@
+/**{
+	margin:0px;
+	padding: 0px;
+}*/
+
+#left ul{
+   margin: 0px;
+   margin-left: -40px;
+   *margin:0px;
+   list-style-type: none;
+}
+#left ul li{
+	width: 240px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #888484;
+	border-bottom: solid 2px #fff;
+    padding-left: 10px;
+}
+#left>h3.lodf{
+	background-color: #f99e0a;
+	width:250px;
+    height: 40px;
+    border-bottom: solid 2px #fff;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+#left>ul li.lol{
+   height: 250px;
+   background: #f99e0a;
+   border-bottom: 0px;
+}
+#left ul li.kik:hover{
+   background-color: #c4261c;
+   color: #fafafa;
+}
+#left>ul li span{
+	margin-top:1px;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+}
+#right p.iol{
+	margin-top:0px;
+	padding: 15px 10px;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+    
+}
+#right p.iol{
+	background-image:url("../img/xwzxlol.jpg");
+
+}
+#right p.sdf{
+	width: 100%;
+	height: 43px;
+	line-height: 43px;
+	background-image: url("../img/xwzx三角.jpg");
+    background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25px;
+}
+#right p a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+#right p a:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+#right form{
+	margin-left: 70px;
+}
+#right form input{
+	
+	border: solid 1px #000;
+}
+/*#book ul li img{
+	width: 200px;
+	height: 200px;
+	margin-right: 30px;
+	border: 0px;
+	
+}*/
+#dyh,#xyh{
+	color: #fff;
+	padding-bottom: 52px;
+	display: block;
+	font-size: 80px;
+	line-height:180px;
+	text-align: center;
+	width: 100px;
+	height: 160px;
+	background-color: rgba(0,0,0,0.5);
+	*background-color: #000;
+	*filter: Alpha(opacity=50);
+	zoom:1;
+	position: absolute;
+	z-index:99;
+}
+#xyh{
+	left: 0px;
+}
+#dyh{
+	right:0px;
+}
+ul#book{
+	list-style-type: none;
+	margin-left: -40px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	*top:20px;
+	width: 4140px;
+	height: 200px;
+	margin-left: -1380px;
+}
+ul#book li{
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-right: 30px;
+}
+ul#book li a{
+	top:160px;
+	margin-left: 60px;
+}
+
